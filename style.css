@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,600&display=swap");
+/* fonts import */
+* {
+  font-family: "Poppins", sans-serif;
+}
+.navband-text {
+  color: rgb(62, 62, 62);
+  font-size: 22px;
+}
+.navband-text:hover {
+  color: rgb(62, 62, 62);
+  font-size: 22px;
+}
+.menu-text {
+  color: rgb(62, 62, 62);
+  font-size: 16px;
+}
+.menu-text:hover {
+  color: rgb(62, 62, 62);
+  font-size: 16px;
+}
+.carsouel-h {
+  height: 584px;
+}
+.btn-focus {
+  background-color: none;
+  border: none;
+  outline: none;
+}
+.btn-focus:focus {
+  border: none;
+  outline: none;
+}
+.cart-h {
+  font-size: 38px;
+  color: #231d4f;
+}
+.cart-text {
+  font-size: 16px;
+  color: #848199;
+}
+.cart-texts {
+  font-size: 16px;
+  color: #fff;
+}
+.cart-w {
+  width: 260px;
+  height: 387px;
+}
+.cart-btn {
+  background-color: #db961554;
+}
+.cart-price {
+  color: #231d4f;
+}
+.cart-p {
+  color: #848199;
+}
+.cart-active {
+  transform: scale(1.1);
+  transform-origin: bottom;
+  background-color: #171a1aad;
+  color: rgba(6, 34, 58, 0.74);
+}
+.badget-tsv {
+  left: 85% !important;
+}
+.accordian-img {
+  width: 546px;
+}
+.footer-bg {
+  background-color: #0b0d17;
+}
+@media only screen and (max-width: 768px) {
+  .cart-active {
+    margin-top: 52px;
+  }
+  .faq-accordian {
+    flex-direction: column;
+  }
+}
